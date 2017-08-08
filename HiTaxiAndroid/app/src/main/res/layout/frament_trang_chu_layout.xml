@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyMainTrangChu"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/txtthongBao"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/txtthongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentBottom="true"
+        android:lines="1"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Chất lượng được đánh giá theo người dùng bình chọn"
+        android:textColor="#000"
+        android:textSize="30dp" />
+</RelativeLayout>

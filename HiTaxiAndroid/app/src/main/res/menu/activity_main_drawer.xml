@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navTranChu"
+            android:icon="@drawable/ic_home_black_36dp"
+            android:title="@string/TrangChu" />
+        <item
+            android:id="@+id/navDanhSachTaxi"
+            android:icon="@drawable/ic_list_black_36dp"
+            android:title="@string/DanhSachTaxi" />
+        <item
+            android:id="@+id/navThongBao"
+            android:icon="@drawable/ic_speaker_notes_black_36dp"
+            android:title="@string/ThongBao" />
+        <item
+            android:id="@+id/navTaxiYeuThich"
+            android:icon="@drawable/xxic_favorite_black_24dp"
+            android:title="@string/TaxiYeuThich" />
+        <item
+            android:id="@+id/navUocTinhGia"
+            android:icon="@drawable/ic_monetization_on_black_36dp"
+            android:title="@string/UocTinhChiPhi" />
+
+        <item
+            android:id="@+id/navTaiKhoan"
+            android:icon="@drawable/ic_account_box_black_36dp"
+            android:title="@string/TaiKhoan" />
+        <item
+            android:id="@+id/navCaiDat"
+            android:icon="@drawable/ic_settings_black_36dp"
+            android:title="@string/CaiDat" />
+        <item
+            android:id="@+id/navGioiThieu"
+            android:icon="@drawable/ic_info_black_36dp"
+            android:title="@string/GioiThieu" />
+        <item
+            android:id="@+id/navLienHe"
+            android:icon="@drawable/ic_call_black_36dp"
+            android:title="@string/LienHe" />
+
+    </group>
+
+
+</menu>

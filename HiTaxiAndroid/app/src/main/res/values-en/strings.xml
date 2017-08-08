@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hi Taxi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_id">380326255681139</string>
+    <string name="TrangChu">Home</string>
+    <string name= "DanhSachTaxi">"Taxi Companies</string>
+    <string name="ThongBao">Notification</string>
+    <string name="TaxiYeuThich">"Favourite</string>
+    <string name="UocTinhChiPhi">Estimating price</string>
+    <string name="TaiKhoan">Account</string>
+    <string name="CaiDat">Setting</string>
+    <string name="GioiThieu">Introduction</string>
+    <string name="LienHe">Contact</string>
+    <string name="TaxiTotNhat">Recommendation Taxi companies</string>
+    <string name="TaxiReNhat">Inexpensive Taxi companies</string>
+    <string name="TaxiTeNhat">Non-recommendation Taxi</string>
+    <string name="ThongBaoChatLuong">Quality is marked by user votes</string>
+    <string name="TaxiTot" >Good Taxi</string>
+    <string name="TaxiRe" >Cheap Taxi</string>
+    <string name="dangNhapVoi">Login with</string>
+    <string name="xe4cho">4 Seats</string>
+    <string name="xe7cho">7 Seats</string>
+    <string name="restartTitle">Thông Báo !</string>
+    <string name="restart">Ứng dụng sẽ được đóng lại bạn vui lòng mở lại app để thấy được sự thay đổi!</string>
+    <string name="close">Đóng</string>
+    <string name="cancel">Hủy</string>
+
+    <string name="rate">Rate</string>
+    <string name="chonSo">Select number?</string>
+    <string name="goiSo1">Call 1</string>
+    <string name="goiSo2">Call 2</string>
+    <string name="dangNhapDeSuDung">You need to sign in to use</string>
+    <string name="daCoTrongDanhSachThich">Included in the wish list</string>
+    <string name="themThanhCong">Add success!</string>
+    <string name="DangNhap">Login</string>
+    <string name="DangXuat">Logout</string>
+    <string name="VuilongKetNoi">Please connect to the internet to use this feature!</string>
+    <string name="VuilongMoGPS">Please open GPS!</string>
+    <string name="VuilongĐiemDi">Please enter your point!</string>
+    <string name="VuilongĐiemDen">Please enter your destination!</string>
+    <string name="diemDi">Point away:</string>
+    <string name="diemDen">Destination:</string>
+    <string name="tinhThanh">City:</string>
+    <string name="hangTaxi">Taxi:</string>
+    <string name="uocTinhChiPhi">Estimated cost</string>
+    <string name="khongCach">Distance: </string>
+    <string name="thoiGian">Time: </string>
+    <string name="chiPhi">Expenses: </string>
+    <string name="goiTaxi">Call Taxi!</string>
+    <string name="chiTietGia">Price details</string>
+    <string name="Goi">Call</string>
+    <string name="giaKMDau">Cost per the first one km</string>
+    <string name="giaKMSau">Cost for 1 km later</string>
+    <string name="giaMoCua">Cost for defaul</string>
+
+</resources>

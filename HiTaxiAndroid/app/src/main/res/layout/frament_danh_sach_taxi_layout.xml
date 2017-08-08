@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <CheckBox
+       android:id="@+id/ckTotNhat"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/TaxiTot"/>
+    <CheckBox
+        android:id="@+id/ckReNhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ckTotNhat"
+        android:text="@string/TaxiRe"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyDanhSachTaxi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ckTotNhat"
+        android:layout_alignParentBottom="true">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

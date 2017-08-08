@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/lbBatDau"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/diemDi"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:id="@+id/cvBatDau"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+
+            android:layout_toRightOf="@+id/lbBatDau"
+            android:background="#00000000"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/edtDiemBatDau"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/lbketthuc"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/lbBatDau"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/diemDen"
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:id="@+id/cvKT"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/cvBatDau"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/lbketthuc"
+            android:background="#00ffffff"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/edtDiemKetThuc"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtTinhThanh"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/cvKT"
+            android:gravity="center"
+            android:text="@string/tinhThanh"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spTinhThanhUTCP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cvKT"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/lbketthuc"
+            android:overlapAnchor="false"></Spinner>
+
+        <TextView
+            android:id="@+id/lbhangtaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtTinhThanh"
+            android:gravity="center"
+            android:text="@string/hangTaxi"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spHangTaxiUocGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTinhThanh"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/lbketthuc"
+            android:overlapAnchor="false"></Spinner>
+
+        <TextView
+            android:id="@+id/dongke"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/spHangTaxiUocGia"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/lvuocchiphi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dongke"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="@string/uocTinhChiPhi"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/lbKC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lvuocchiphi"
+            android:text="@string/khongCach"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/lbtg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbKC"
+            android:text="@string/thoiGian"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/lbcp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbtg"
+            android:text="@string/chiPhi"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtKhoangCach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lvuocchiphi"
+            android:layout_toRightOf="@+id/lbcp"
+            android:text="0 km"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtThoiGian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtKhoangCach"
+            android:layout_toRightOf="@+id/lbcp"
+            android:text="0 phút"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtSoTienUocTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtThoiGian"
+            android:layout_toRightOf="@+id/lbcp"
+            android:text="0 đ"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnGoiNgayTaxi"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoTienUocTinh"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/goiTaxi" />
+
+    </RelativeLayout>
+</RelativeLayout>

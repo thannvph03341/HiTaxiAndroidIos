@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hi Taxi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_id">380326255681139</string>
+    <string name="TrangChu">Trang chủ</string>
+    <string name="DanhSachTaxi">Danh sách</string>
+    <string name="ThongBao">Thông Báo</string>
+    <string name="TaxiYeuThich">Taxi yêu thích</string>
+    <string name="UocTinhChiPhi">Ước tính chi phí</string>
+    <string name="TaiKhoan">Tài khoản</string>
+    <string name="CaiDat">Cài đặt</string>
+    <string name="GioiThieu">Giới thiệu</string>
+    <string name="LienHe">Liên hệ</string>
+    <string name="TaxiTotNhat">Taxi tốt nhấ</string>
+    <string name="TaxiReNhat">Taxi giá rẻ</string>
+    <string name="TaxiTeNhat">Taxi tệ nhất</string>
+    <string name="ThongBaoChatLuong">Chất lượng được đánh giá theo người bình chọn</string>
+    <string name="TaxiTot">Taxi Tốt</string>
+    <string name="TaxiRe">Taxi Rẻ</string>
+    <string name="xe4cho">4 Chỗ</string>
+    <string name="xe7cho">7 Chỗ</string>
+    <string name="restartTitle">Alert !</string>
+    <string name="dangNhapVoi">Đăng nhập với</string>
+    <string name="restart">The application will be closed, please reopen to receive the change!</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="rate">Rate</string>
+    <string name="chonSo">Chọn số</string>
+    <string name="goiSo1">Gọi số 1</string>
+    <string name="goiSo2">Gọi số 2</string>
+    <string name="dangNhapDeSuDung">Bạn cần đăng nhập để sử dụng</string>
+    <string name="daCoTrongDanhSachThich">Taxi đã có trong danh sách</string>
+    <string name="themThanhCong">Thêm thành công!</string>
+    <string name="DangNhap">Đăng nhập</string>
+    <string name="DangXuat">Đăng xuất</string>
+    <string name="VuilongKetNoi">Vui lòng kết nối internet để sử dụng!</string>
+    <string name="VuilongMoGPS">Vui lòng mở GPS!</string>
+    <string name="VuilongĐiemDi">Vui lòng nhập điểm đi!</string>
+    <string name="VuilongĐiemDen">Vui lòng nhập đểm đến!</string>
+    <string name="diemDi">Điểm đi:</string>
+    <string name="diemDen">Điểm đến:</string>
+    <string name="tinhThanh">Tỉnh thành:</string>
+    <string name="hangTaxi">Taxi:</string>
+    <string name="uocTinhChiPhi">Ước tính</string>
+    <string name="khongCach">Khoảng cách: </string>
+    <string name="thoiGian">Thời gian: </string>
+    <string name="chiPhi">Chi phí: </string>
+    <string name="goiTaxi">Gọi Taxi !</string>
+    <string name="chiTietGia">Chi tiết giá</string>
+    <string name="Goi">Gọi</string>
+    <string name="giaKMSau">Giá Km sau</string>
+    <string name="giaKMDau">Giá Km đầu</string>
+    <string name="giaMoCua">Giá Mở Cửa</string>
+
+</resources>

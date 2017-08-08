@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuGiaMoCua"
+        android:orderInCategory="1"
+        android:title="Giá Mở Cửa" />
+    <item
+        android:id="@+id/menuGiaKmDau"
+        android:orderInCategory="1"
+        android:title="Giá Km Đầu" />
+    <item
+        android:id="@+id/menuGiaKmSau"
+        android:orderInCategory="1"
+        android:title="Km sau" />
+</menu>
